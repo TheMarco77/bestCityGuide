@@ -106,8 +106,30 @@ a {
         padding-bottom: 2.5rem;
     }
 
+    h2 {
+        padding-top: 30px;
+        padding-left: .5rem;
+    }
+
+    p {
+        padding: .5rem .5rem 0 .6rem;
+        margin-top: .1rem;
+        margin-bottom: .1rem;
+    }
+
+    .main-footer {
+        text-align: center;
+    }
 
     @media (min-width: 769px) {
+        .main-header ul {
+            text-align: left;
+            display: inline-block;
+        }
+
+        /* ul {
+            display: inline-block;
+        } */
 
         /* ---- Float clearfix ---- */
 
