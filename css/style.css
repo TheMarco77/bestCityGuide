@@ -88,7 +88,7 @@ a {
   Media Queries
 ==================================== */
 
-/* Smart mobile phones */
+/* mobile phones */
 @media (max-width: 769px) {
 
     .main-header {
@@ -134,19 +134,32 @@ a {
 
 /* tablets */
 
-@media (min-width: 770px) {
+@media (min-width: 770px) and (max-width: 1280px) {
     .name {
-        text-align: left;
         padding-left: 3rem;
     }
 
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
     .main-nav {
-        display: inline-block;
+        float: inline-block;
     }
 
     li {
-        float: right;
-        padding: .5rem;
+        float: left;
+    }
+
+    li a {
+        display: inline-block;
+        text-align: center;
+        padding: 1rem;
+        margin: auto;
     }
 
     /* ---- Float clearfix ---- */
