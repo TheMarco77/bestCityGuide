@@ -134,32 +134,36 @@ a {
 
 /* tablets */
 
-@media (min-width: 770px) and (max-width: 1280px) {
+@media (min-width: 770px) {
     .name {
         padding-left: 3rem;
+        display: inline-block;
     }
 
     ul {
-        list-style: none;
+        list-style-type: none;
         margin: 0;
         padding: 0;
-        overflow: hidden;
-        background-color: #333;
     }
 
     .main-nav {
-        float: inline-block;
+        float: right;
+        padding: .6rem 4rem;
+        font-weight: bold;
     }
 
     li {
-        float: left;
+        display: inline;
     }
 
     li a {
-        display: inline-block;
-        text-align: center;
+        text-align: right;
         padding: 1rem;
-        margin: auto;
+    }
+
+    .banner {
+        text-align: center;
+        padding: 2rem 0 2.5rem;
     }
 
     /* ---- Float clearfix ---- */
