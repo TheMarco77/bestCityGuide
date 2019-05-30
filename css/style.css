@@ -166,12 +166,37 @@ a {
         padding: 2rem 0 2.5rem;
     }
 
+    .primary {
+        width: 45%;
+        padding: 4rem .5rem 1rem 1.5rem;
+        align-content: center;
+        overflow: auto;
+        float: none;
+    }
+
+    .secondary {
+        width: 45%;
+        padding: 4rem 2rem 1rem 1.5rem;
+        padding-left: 5rem;
+        float: left;
+        overflow: auto;
+    }
+
+    .tertiary {
+        width: 100%;
+        padding: .5rem 2rem .1rem 5rem;
+    }
+
+    .main-footer {
+        text-align: center;
+        overflow: auto;
+    }
+
     /* ---- Float clearfix ---- */
 
     .clearfix::after {
         content: " ";
-        display: table;
         clear: both;
+        display: table;
     }
-
 }
