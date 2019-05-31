@@ -200,3 +200,64 @@ a {
         display: table;
     }
 }
+
+/* screens larger than tablets  */
+
+@media (min-width: 1281px) {
+    .name {
+        padding-left: 3rem;
+        display: inline-block;
+    }
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .main-nav {
+        float: right;
+        padding: .6rem 4rem;
+        font-weight: bold;
+    }
+
+    li {
+        display: inline;
+        padding: 1rem;
+    }
+
+    li a {
+        text-align: right;
+        padding: 1rem;
+    }
+
+    .banner {
+        text-align: center;
+        padding: 2rem 0 2.5rem;
+    }
+
+    .primary {
+        width: 40%;
+    }
+
+    .secondary {
+        width: 30%;
+    }
+
+    .tertiary {
+        width: 30%;
+    }
+
+    .main-footer {
+        text-align: center;
+    }
+
+    /* ---- Float clearfix ---- */
+
+    .clearfix::after {
+        content: " ";
+        clear: both;
+        display: table;
+    }
+
+}
